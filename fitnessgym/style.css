@@ -16,6 +16,14 @@ body{
 
 .quemsomosbg{
     background-image: url("imgs/quem-somos.jpg");
+}
+
+.contatobg{
+    background-image: url("imgs/contato.jpg");
+}
+
+.planosbg{
+    background-image: url("imgs/planos.jpg");
 
 }
 
@@ -133,6 +141,8 @@ footer{
     height: 315px;
     padding: 20px;
     border-top: 5px solid #b31919;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
 }
 
 .pagina h1{
@@ -148,9 +158,14 @@ footer{
     padding-bottom: 30px;
 }
 
-#depo{
+.container{
     position: relative;
     top: -40px;
+}
+
+
+.container a{
+    color: #f1f1f1;
 }
 
 .pagina p{
@@ -160,6 +175,10 @@ footer{
     width: 420px;
     text-align: justify;
     color: #636363;
+}
+
+.paginagrande{
+    height: 800px;
 }
 
 .red{
@@ -185,4 +204,60 @@ footer{
 
 .white a{
     color: #b31919;
+}
+
+.planos h3{
+    font-size: 3em;
+    color: #353535;
+}
+
+.planos{
+    height: 500px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.basic{
+    top: -125px;
+    background-color: #f1f1f1;
+    height: 550px;
+    border-top: 6px solid yellowgreen;
+}
+
+#melhorescolha {
+    padding: 8px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    width: 75px;
+    font-weight: bold;
+    font-size: 0.6em;
+}
+
+.starter{
+    border-top:6px solid yellow;
+}
+
+.advanced{
+    border-top: 6px solid purple;
+}
+
+.planos ul{
+    color: #636363;
+    list-style: none;
+    margin-bottom: 65px;
+}
+
+.planos ul li{
+    padding: 15px 0px 15px 0px;
+    font-weight: bold;
+    border-bottom: 1px solid whitesmoke;
+
+}
+
+.ctaplanos a{
+    color: #f1f1f1;
+    background-color: yellowgreen;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 auto;
 }
